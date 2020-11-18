@@ -2,14 +2,13 @@
 
 CPU::CPU() {
     // set PC to 0x200
-    reg_PC = 0x200;
+    reg_PC = (uint8_t) 0x200;
     // TODO what needs initialized?
 }
 
-void* CPU::Fetch() {
+void CPU::Execute() {
     // Take the SP and see what memory it points to, map memory and function ptrs
     uint8_t op = memory[reg_PC];
-    char *str = "";
     switch(op) // Entire Op Code Map
     {
         case 0x0:

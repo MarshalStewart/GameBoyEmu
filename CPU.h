@@ -9,9 +9,9 @@ public:
     CPU();
     ~CPU() {}; // TODO: any memory allocated?
     // TODO: Op Functions
-    void* Fetch(); // Fetch instruction, return function ptr?
+    //void* Fetch(); // Fetch instruction, return function ptr?
     // void* Decode(); Needed? or can fetch decode and return the program ptr
-    void Execute(void *func);
+    void Execute();
 
     // OP CODES
     // GMB 8 bit-LoadCommands
