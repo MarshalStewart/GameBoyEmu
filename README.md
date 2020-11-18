@@ -1,2 +1,2 @@
 # GameBoyEmu
-Game Boy Emulator built on windows
+Game Boy Emulator built on WSL
