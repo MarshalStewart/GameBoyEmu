@@ -3,7 +3,6 @@
 #include <memory>
 
 #include "CPU.cpp"
-#include "Memory.cpp"
 
 using namespace std;
 
